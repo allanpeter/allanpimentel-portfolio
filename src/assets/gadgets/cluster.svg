@@ -1,0 +1,24 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a111a" />
+      <stop offset="100%" stop-color="#101b28" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#19f7a1" />
+      <stop offset="100%" stop-color="#2dc3ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="36" fill="url(#bg)" />
+  <rect x="80" y="80" width="1040" height="640" rx="28" fill="#0f1624" stroke="rgba(255,255,255,0.08)" stroke-width="2" />
+  <path d="M120 200H1080" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" />
+  <circle cx="160" cy="160" r="8" fill="#19f7a1" />
+  <circle cx="200" cy="160" r="8" fill="#2dc3ff" />
+  <circle cx="240" cy="160" r="8" fill="#19f7a1" />
+  <text x="120" y="290" fill="white" font-size="42" font-family="'Space Grotesk', Arial, sans-serif" font-weight="600">Cluster</text>
+  <text x="120" y="350" fill="rgba(255,255,255,0.6)" font-size="24" font-family="'JetBrains Mono', monospace">Homelab</text>
+  <rect x="120" y="420" width="360" height="16" rx="8" fill="url(#accent)" />
+  <rect x="120" y="460" width="520" height="12" rx="6" fill="rgba(255,255,255,0.15)" />
+  <rect x="120" y="490" width="460" height="12" rx="6" fill="rgba(255,255,255,0.12)" />
+  <rect x="120" y="520" width="320" height="12" rx="6" fill="rgba(255,255,255,0.1)" />
+</svg>
