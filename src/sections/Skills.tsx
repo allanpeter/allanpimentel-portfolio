@@ -1,17 +1,25 @@
+import { Language, getTranslation } from '../i18n'
+import { skills } from '../data/portfolio'
 import Section from '../components/Section'
 import SkillCard from '../components/SkillCard'
-import { skills } from '../data/portfolio'
 
-const Skills = () => {
+interface SkillsProps {
+  lang: Language
+}
+
+const Skills = ({ lang }: SkillsProps) => {
+  const t = getTranslation(lang)
+  const skillsData = skills[lang]
+
   return (
     <Section
       id="skills"
-      title="Expertises"
-      eyebrow="Skills"
-      subtitle="Pilares tecnicos que sustentam produtos e infraestruturas modernas."
+      title={t.skills.title}
+      eyebrow={t.skills.eyebrow}
+      subtitle={t.skills.subtitle}
     >
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {skills.map((skill) => (
+        {skillsData.map((skill) => (
           <SkillCard key={skill.title} title={skill.title} description={skill.description} />
         ))}
       </div>

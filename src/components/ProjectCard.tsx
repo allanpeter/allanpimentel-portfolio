@@ -8,9 +8,10 @@ type ProjectCardProps = {
   summary: string
   tech: string[]
   cta: string
+  ctaUrl?: string
 }
 
-const ProjectCard = ({ title, image, summary, tech, cta }: ProjectCardProps) => {
+const ProjectCard = ({ title, image, summary, tech, cta, ctaUrl }: ProjectCardProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -29,7 +30,14 @@ const ProjectCard = ({ title, image, summary, tech, cta }: ProjectCardProps) => 
               <Tag key={item} label={item} />
             ))}
           </div>
-          <Button className="mt-6" variant="ghost">
+          <Button
+            className="mt-6"
+            variant="ghost"
+            as={ctaUrl ? "link" : "button"}
+            href={ctaUrl}
+            target={ctaUrl ? "_blank" : undefined}
+            rel={ctaUrl ? "noopener noreferrer" : undefined}
+          >
             {cta}
           </Button>
         </div>

@@ -1,3 +1,4 @@
+import { Language } from '../i18n'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Hero from '../sections/Hero'
@@ -7,19 +8,23 @@ import Projects from '../sections/Projects'
 import Showcase from '../sections/Showcase'
 import Contact from '../sections/Contact'
 
-const Home = () => {
+interface HomeProps {
+  lang: Language
+}
+
+const Home = ({ lang }: HomeProps) => {
   return (
     <div className="min-h-screen bg-base-950 text-white">
-      <Navbar />
+      <Navbar lang={lang} />
       <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Showcase />
-        <Contact />
+        <Hero lang={lang} />
+        <About lang={lang} />
+        <Skills lang={lang} />
+        <Projects lang={lang} />
+        <Showcase lang={lang} />
+        <Contact lang={lang} />
       </main>
-      <Footer />
+      <Footer lang={lang} />
     </div>
   )
 }
