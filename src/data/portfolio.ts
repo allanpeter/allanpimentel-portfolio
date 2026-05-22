@@ -2,6 +2,7 @@ import mockflowImg from '../assets/projects/mockflow.svg'
 import n8nImg from '../assets/projects/n8n.svg'
 import sistemasolarImg from '../assets/projects/sistemasolar.svg'
 import trocaiImg from '../assets/projects/trocai.svg'
+import financeiroImg from '../assets/projects/financeiro.svg'
 
 import optiplexImg from '../assets/gadgets/optiplex.svg'
 import nasImg from '../assets/gadgets/nas.svg'
@@ -113,6 +114,14 @@ export const projects = {
       tech: ['React', 'Node.js', 'PostgreSQL'],
       cta: 'Visitar',
       ctaUrl: 'https://trocai.app'
+    },
+    {
+      title: 'Financeiro - Controle de Capital',
+      image: financeiroImg,
+      summary: 'Portal para registrar entradas e saidas, calcular o saldo e distribuir automaticamente por porcentagem entre seus aportes.',
+      tech: ['React', 'Node.js', 'PostgreSQL'],
+      cta: 'Acessar',
+      ctaUrl: 'https://financeiro.apps.allanpimentel.com'
     }
   ],
   en: [
@@ -147,6 +156,14 @@ export const projects = {
       tech: ['React', 'Node.js', 'PostgreSQL'],
       cta: 'Visit',
       ctaUrl: 'https://trocai.app'
+    },
+    {
+      title: 'Financeiro - Capital Tracker',
+      image: financeiroImg,
+      summary: 'Portal to track income and expenses, calculate your balance, and automatically split the remainder across investments by percentage.',
+      tech: ['React', 'Node.js', 'PostgreSQL'],
+      cta: 'Access',
+      ctaUrl: 'https://financeiro.apps.allanpimentel.com'
     }
   ]
 }
