@@ -1,5 +1,7 @@
 import mockflowImg from '../assets/projects/mockflow.svg'
 import n8nImg from '../assets/projects/n8n.svg'
+import sistemasolarImg from '../assets/projects/sistemasolar.svg'
+import trocaiImg from '../assets/projects/trocai.svg'
 
 import optiplexImg from '../assets/gadgets/optiplex.svg'
 import nasImg from '../assets/gadgets/nas.svg'
@@ -95,6 +97,22 @@ export const projects = {
       tech: ['n8n', 'Workflows', 'Integracao'],
       cta: 'Explorar',
       ctaUrl: 'https://n8n.apps.allanpimentel.com'
+    },
+    {
+      title: 'Sistema Solar - Visualizador 3D',
+      image: sistemasolarImg,
+      summary: 'Simulacao interativa do sistema solar em 3D com orbitas e planetas em tempo real.',
+      tech: ['Three.js', 'React', 'WebGL'],
+      cta: 'Explorar',
+      ctaUrl: 'https://sistemasolar.apps.allanpimentel.com'
+    },
+    {
+      title: 'Trocai - Plataforma de Trocas',
+      image: trocaiImg,
+      summary: 'Marketplace para troca de itens entre usuarios, sem necessidade de dinheiro.',
+      tech: ['React', 'Node.js', 'PostgreSQL'],
+      cta: 'Visitar',
+      ctaUrl: 'https://trocai.app'
     }
   ],
   en: [
@@ -113,6 +131,22 @@ export const projects = {
       tech: ['n8n', 'Workflows', 'Integration'],
       cta: 'Explore',
       ctaUrl: 'https://n8n.apps.allanpimentel.com'
+    },
+    {
+      title: 'Solar System - 3D Visualizer',
+      image: sistemasolarImg,
+      summary: 'Interactive 3D solar system simulation with real-time orbits and planets.',
+      tech: ['Three.js', 'React', 'WebGL'],
+      cta: 'Explore',
+      ctaUrl: 'https://sistemasolar.apps.allanpimentel.com'
+    },
+    {
+      title: 'Trocai - Item Swap Platform',
+      image: trocaiImg,
+      summary: 'Marketplace for swapping items between users, no money required.',
+      tech: ['React', 'Node.js', 'PostgreSQL'],
+      cta: 'Visit',
+      ctaUrl: 'https://trocai.app'
     }
   ]
 }

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="solarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FCD34D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F97316;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1E1B4B;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0F0A1E;stop-opacity:0.05" />
+    </radialGradient>
+    <filter id="solarGlow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="50" cy="50" r="48" fill="url(#spaceGrad)"/>
+
+  <!-- Stars -->
+  <circle cx="15" cy="18" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="82" cy="12" r="0.6" fill="white" opacity="0.6"/>
+  <circle cx="90" cy="35" r="0.8" fill="white" opacity="0.5"/>
+  <circle cx="10" cy="70" r="0.6" fill="white" opacity="0.6"/>
+  <circle cx="88" cy="75" r="0.7" fill="white" opacity="0.5"/>
+  <circle cx="25" cy="88" r="0.5" fill="white" opacity="0.4"/>
+  <circle cx="72" cy="90" r="0.7" fill="white" opacity="0.6"/>
+
+  <!-- Orbit rings -->
+  <ellipse cx="50" cy="50" rx="20" ry="7" stroke="#6366F1" stroke-width="0.5" opacity="0.3" fill="none"/>
+  <ellipse cx="50" cy="50" rx="32" ry="11" stroke="#8B5CF6" stroke-width="0.5" opacity="0.25" fill="none"/>
+  <ellipse cx="50" cy="50" rx="42" ry="14" stroke="#A78BFA" stroke-width="0.5" opacity="0.2" fill="none"/>
+
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="10" fill="url(#solarGrad)" filter="url(#solarGlow)" opacity="0.95"/>
+  <circle cx="50" cy="50" r="13" fill="none" stroke="#FCD34D" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Planet 1 (Mercury/Venus - small, inner) -->
+  <circle cx="70" cy="50" r="3" fill="#60A5FA" opacity="0.9" filter="url(#solarGlow)"/>
+
+  <!-- Planet 2 (Earth-like - medium, mid) -->
+  <circle cx="50" cy="39" r="4" fill="#34D399" opacity="0.9" filter="url(#solarGlow)"/>
+
+  <!-- Planet 3 (Outer - Saturn-like with ring) -->
+  <ellipse cx="18" cy="55" rx="7" ry="2" stroke="#C084FC" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <circle cx="18" cy="55" r="5" fill="#A855F7" opacity="0.85" filter="url(#solarGlow)"/>
+</svg>
