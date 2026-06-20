@@ -56,7 +56,7 @@ const Hero = ({ lang }: HeroProps) => {
           >
             <img
               src={profileImg}
-              alt="Allan Pimentel"
+              alt="Allan Pimentel. - V2"
               className="w-full h-auto object-cover rounded-3xl"
             />
           </motion.div>
