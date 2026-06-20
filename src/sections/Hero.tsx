@@ -26,7 +26,7 @@ const Hero = ({ lang }: HeroProps) => {
           >
             <p className="text-sm uppercase tracking-[0.3em] text-neon-green">Portfolio {currentYear}</p>
             <h1 className="mt-4 text-4xl font-semibold text-white lg:text-5xl">
-              Allan Pimentel
+              Allan Pimentel - V2
             </h1>
             <p className="mt-4 text-lg text-white/70">
               {t.hero.subtitle}
