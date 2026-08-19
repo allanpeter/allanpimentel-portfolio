@@ -157,7 +157,7 @@ const Contact = ({ lang }: ContactProps) => {
               href="https://github.com/allanpeter"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full justify-center bg-orange-500/20 text-orange-400 shadow-lg border border-orange-500/40 hover:bg-orange-500/30"
+              className="w-full justify-center bg-orange-500/20 text-orange-400 border border-orange-500/40 hover:bg-orange-500/30"
             >
               {t.contact.sidebar.buttons.github}
             </Button>
@@ -167,9 +167,19 @@ const Contact = ({ lang }: ContactProps) => {
               target="_blank"
               rel="noopener noreferrer"
               variant="primary"
-              className="w-full justify-center"
+              className="w-full justify-center shadow-none"
             >
               {t.contact.sidebar.buttons.linkedin}
+            </Button>
+            <Button
+              as="link"
+              href="https://www.youtube.com/@allanpeter"
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="ghost"
+              className="w-full justify-center"
+            >
+              {t.contact.sidebar.buttons.youtube}
             </Button>
           </div>
         </motion.div>

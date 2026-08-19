@@ -24,9 +24,9 @@ const Hero = ({ lang }: HeroProps) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <p className="text-sm uppercase tracking-[0.3em] text-neon-green">Portfolio {currentYear}</p>
+            <p className="text-sm uppercase tracking-[0.3em] text-neon-green">Portfólio {currentYear}</p>
             <h1 className="mt-4 text-4xl font-semibold text-white lg:text-5xl">
-              Allan Pimentel - V2
+              Allan Pimentel
             </h1>
             <p className="mt-4 text-lg text-white/70">
               {t.hero.subtitle}
@@ -34,9 +34,6 @@ const Hero = ({ lang }: HeroProps) => {
             <div className="mt-8 flex flex-wrap gap-3">
               <Button as="link" href="#projects" variant="primary">
                 {t.hero.cta.projects}
-              </Button>
-              <Button as="link" href="#contact" variant="secondary">
-                {t.hero.cta.contact}
               </Button>
             </div>
             <div className="mt-10 flex flex-wrap gap-6 text-sm text-white/60">
@@ -56,7 +53,7 @@ const Hero = ({ lang }: HeroProps) => {
           >
             <img
               src={profileImg}
-              alt="Allan Pimentel. - V2"
+              alt="Allan Pimentel"
               className="w-full h-auto object-cover rounded-3xl"
             />
           </motion.div>

@@ -14,35 +14,35 @@ export const skills = {
   pt: [
     {
       title: 'Arquitetura de sistemas',
-      description: 'Design de sistemas escalaveis, resilientes e orientados a automacao e eficiencia operacional.'
+      description: 'Design de sistemas escaláveis, resilientes e orientados à automação e à eficiência operacional.'
     },
     {
       title: 'Desenvolvimento Full Stack',
-      description: 'Construcao de SaaS e sistemas com Node.js, React e integracoes robustas.'
+      description: 'Construção de SaaS e sistemas com Node.js, React e integrações robustas.'
     },
     {
-      title: 'Automacao de processos',
-      description: 'n8n, workflows e integracoes para eliminar tarefas manuais e aumentar produtividade.'
+      title: 'Automação de processos',
+      description: 'n8n, workflows e integrações para eliminar tarefas manuais e aumentar produtividade.'
     },
     {
       title: 'Infraestrutura & Cloud',
-      description: 'AWS, Proxmox e gestao de ambientes com foco em performance, custo e controle.'
+      description: 'AWS, Proxmox e gestão de ambientes com foco em performance, custo e controle.'
     },
     {
       title: 'DevOps & Entrega',
-      description: 'CI/CD, observabilidade e deploy rapido com foco em confiabilidade e entrega continua.'
+      description: 'CI/CD, observabilidade e deploy rápido com foco em confiabilidade e entrega contínua.'
     },
     {
-      title: 'Homelab & servicos locais',
-      description: 'Execucao de servicos locais, clusters e experimentacao de arquiteturas em ambiente proprio.'
+      title: 'Homelab & serviços locais',
+      description: 'Execução de serviços locais, clusters e experimentação de arquiteturas em ambiente próprio.'
     },
     {
-      title: 'Construcao de SaaS',
-      description: 'Do MVP a escala, com foco em entrega rapida de valor e evolucao continua.'
+      title: 'Construção de SaaS',
+      description: 'Do MVP à escala, com foco em entrega rápida de valor e evolução contínua.'
     },
     {
       title: 'Tecnologia aplicada',
-      description: 'Impressao 3D, drones, Arduino e automacao residencial com abordagem pratica.'
+      description: 'Impressão 3D, drones, Arduino e automação residencial com abordagem prática.'
     }
   ],
   en: [
@@ -84,84 +84,72 @@ export const skills = {
 export const projects = {
   pt: [
     {
-      title: 'Mockflow - Mentoria para Desenvolvedores',
+      title: 'Mockflow — preparação para entrevistas técnicas',
       image: mockflowImg,
-      summary: 'Plataforma conectando juniors com seniors para experiencia e preparacao para entrevistas.',
-      tech: ['Next.js', 'shadcn/ui', 'Node.js'],
+      summary: 'Plataforma que conecta desenvolvedores em início de carreira a mentores para praticar entrevistas e ganhar confiança no processo seletivo.',
       cta: 'Visitar',
       ctaUrl: 'https://mockflow.com.br'
     },
     {
-      title: 'n8n - Automacao e Integracao',
+      title: 'Case interno: captura de contatos',
       image: n8nImg,
-      summary: 'Plataforma de automacao robusta com workflows, integracao de APIs e automacao de processos.',
-      tech: ['n8n', 'Workflows', 'Integracao'],
-      cta: 'Explorar',
-      ctaUrl: 'https://n8n.apps.allanpimentel.com'
+      summary: 'O formulário deste portfólio envia cada contato para um webhook no n8n, criando uma entrada única para novos leads.',
+      cta: 'Case próprio'
     },
     {
       title: 'Sistema Solar - Visualizador 3D',
       image: sistemasolarImg,
-      summary: 'Simulacao interativa do sistema solar em 3D com orbitas e planetas em tempo real.',
-      tech: ['Three.js', 'React', 'WebGL'],
+      summary: 'Experiência interativa que transforma conteúdo científico em uma forma mais visual, explorável e fácil de entender.',
       cta: 'Explorar',
       ctaUrl: 'https://sistemasolar.apps.allanpimentel.com'
     },
     {
       title: 'Trocai - Plataforma de Trocas',
       image: trocaiImg,
-      summary: 'Marketplace para troca de itens entre usuarios, sem necessidade de dinheiro.',
-      tech: ['React', 'Node.js', 'PostgreSQL'],
+      summary: 'Marketplace que permite a troca de itens entre pessoas sem depender de transações em dinheiro.',
       cta: 'Visitar',
       ctaUrl: 'https://trocai.app'
     },
     {
       title: 'Financeiro - Controle de Capital',
       image: financeiroImg,
-      summary: 'Portal para registrar entradas e saidas, calcular o saldo e distribuir automaticamente por porcentagem entre seus aportes.',
-      tech: ['React', 'Node.js', 'PostgreSQL'],
+      summary: 'Ferramenta para organizar entradas e saídas, acompanhar o saldo e distribuir aportes por regras percentuais.',
       cta: 'Acessar',
       ctaUrl: 'https://financeiro.apps.allanpimentel.com'
     }
   ],
   en: [
     {
-      title: 'Mockflow - Developer Mentorship',
+      title: 'Mockflow — technical interview preparation',
       image: mockflowImg,
-      summary: 'Platform connecting juniors with seniors for experience and interview preparation.',
-      tech: ['Next.js', 'shadcn/ui', 'Node.js'],
+      summary: 'A platform that connects early-career developers with mentors to practice interviews and build confidence in the hiring process.',
       cta: 'Visit',
       ctaUrl: 'https://mockflow.com.br'
     },
     {
-      title: 'n8n - Automation & Integration',
+      title: 'Internal case: contact capture',
       image: n8nImg,
-      summary: 'Robust automation platform with workflows, API integration, and process automation.',
-      tech: ['n8n', 'Workflows', 'Integration'],
-      cta: 'Explore',
-      ctaUrl: 'https://n8n.apps.allanpimentel.com'
+      summary: 'This portfolio\'s form sends every contact to an n8n webhook, creating a single entry point for incoming leads.',
+      cta: 'Own case'
     },
     {
       title: 'Solar System - 3D Visualizer',
       image: sistemasolarImg,
-      summary: 'Interactive 3D solar system simulation with real-time orbits and planets.',
-      tech: ['Three.js', 'React', 'WebGL'],
+      summary: 'An interactive experience that turns science content into something more visual, explorable, and easier to understand.',
       cta: 'Explore',
       ctaUrl: 'https://sistemasolar.apps.allanpimentel.com'
     },
     {
       title: 'Trocai - Item Swap Platform',
       image: trocaiImg,
-      summary: 'Marketplace for swapping items between users, no money required.',
-      tech: ['React', 'Node.js', 'PostgreSQL'],
+      summary: 'A marketplace that lets people exchange items without relying on cash transactions.',
       cta: 'Visit',
       ctaUrl: 'https://trocai.app'
     },
     {
       title: 'Financeiro - Capital Tracker',
       image: financeiroImg,
-      summary: 'Portal to track income and expenses, calculate your balance, and automatically split the remainder across investments by percentage.',
-      tech: ['React', 'Node.js', 'PostgreSQL'],
+      summary: 'A tool to organize income and expenses, monitor balance, and allocate investments by percentage rules.',
       cta: 'Access',
       ctaUrl: 'https://financeiro.apps.allanpimentel.com'
     }
@@ -170,10 +158,10 @@ export const projects = {
 
 export const infrastructure = {
   pt: {
-    description: 'Ambiente com foco em automacao, observabilidade e controle total da infraestrutura.',
+    description: 'Ambiente com foco em automação, observabilidade e controle total da infraestrutura.',
     categories: [
       {
-        title: 'Virtualizacao & Orquestracao',
+        title: 'Virtualização & Orquestração',
         items: ['Proxmox', 'K3S']
       },
       {
@@ -189,11 +177,11 @@ export const infrastructure = {
         items: ['TrueNAS', 'ZFS']
       },
       {
-        title: 'Rede & Seguranca',
+        title: 'Rede & Segurança',
         items: ['AdGuard Home', 'Vaultwarden']
       },
       {
-        title: 'Servicos & Automacao',
+        title: 'Serviços & Automação',
         items: ['Home Assistant', 'Jellyfin']
       }
     ]

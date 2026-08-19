@@ -18,6 +18,7 @@ const Footer = ({ lang }: FooterProps) => {
         <div className="flex gap-6">
           <a href="https://github.com/allanpeter" target="_blank" rel="noopener noreferrer" className="hover:text-white">GitHub</a>
           <a href="https://www.linkedin.com/in/allan-pimentel-24ab17145/" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a>
+          <a href="https://www.youtube.com/@allanpeter" target="_blank" rel="noopener noreferrer" className="hover:text-white">YouTube</a>
         </div>
       </Container>
     </footer>

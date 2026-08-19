@@ -13,7 +13,7 @@ const variants: Record<string, string> = {
   primary:
     'bg-neon-blue/20 text-neon-blue shadow-glow border border-neon-blue/40 hover:bg-neon-blue/30',
   secondary:
-    'bg-neon-green/20 text-neon-green shadow-glowGreen border border-neon-green/40 hover:bg-neon-green/30',
+    'bg-neon-green/20 text-neon-green border border-neon-green/40 hover:bg-neon-green/30',
   ghost: 'border border-white/20 text-white/80 hover:border-white/40 hover:text-white'
 }
 

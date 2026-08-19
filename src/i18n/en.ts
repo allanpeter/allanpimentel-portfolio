@@ -1,6 +1,6 @@
 export const en = {
   navbar: {
-    tagline: 'Infra - Automation - AI - DEV',
+    tagline: 'Systems · Automation · Infrastructure',
     nav: {
       home: 'Home',
       about: 'About',
@@ -14,15 +14,15 @@ export const en = {
 
   hero: {
     eyebrow: 'Portfolio',
-    subtitle: 'Developer, Systems Creator, Automation & Homelab Enthusiast.',
+    subtitle: 'Systems, automation, and infrastructure to reduce manual work and support your business growth.',
     cta: {
       projects: 'See Projects',
       contact: 'Let\'s talk'
     },
     stats: [
-      { value: '12+ years', label: 'Products and Systems' },
-      { value: '40+ automations', label: 'Workflows & Integrations' },
-      { value: 'AI-ready Infra', label: 'Homelab & Cloud' }
+      { value: '12 years', label: 'Building products and systems' },
+      { value: 'Automation', label: 'APIs, webhooks & workflows' },
+      { value: 'Infrastructure', label: 'AWS, Proxmox & Kubernetes' }
     ]
   },
 
@@ -31,8 +31,8 @@ export const en = {
     eyebrow: 'Context',
     subtitle: 'I automate what\'s repetitive. I scale what generates value.',
     body: [
-      'I\'m a Full Stack Developer with years of experience, focused on creating robust, reliable solutions ready to grow. My specialty lies in automating processes and transforming complex tasks into simple, efficient workflows.',
-      'I have strong expertise in AWS, Proxmox, and infrastructure management, also operating a homelab where I run various local services. This allows me to test, validate, and evolve architectures with speed and autonomy.',
+      'I\'m a Full Stack Developer with 12 years of experience, focused on creating robust, reliable solutions ready to grow. My specialty lies in automating processes and transforming complex tasks into simple, efficient workflows.',
+      'I have strong expertise in AWS, Proxmox, and infrastructure management, creating environments that prioritize availability, security, and operational predictability.',
       'Day-to-day, I develop SaaS, create automations, and always seek to reduce operational friction, accelerate deploys, and deliver value as quickly as possible.',
       'Beyond software, I explore technology in practice with 3D printing, drones, Arduino, and home automation—always aiming to build useful solutions in the real world.'
     ],
@@ -40,37 +40,34 @@ export const en = {
       title: 'Specialties',
       items: [
         'Full Stack Development — SaaS, scalable systems, and business-oriented solutions',
-        'Infrastructure & Cloud — AWS, Proxmox, virtualization, and environment management',
-        'Automations — n8n, workflows, integrations, and operational task reduction',
-        'DevOps & Delivery — CI/CD, observability, fast and reliable deployment',
-        'Homelab & Edge — local services, clusters, and architecture experimentation',
-        'Applied Technology — 3D printing, drones, Arduino, and home automation'
+        'Process Automation — n8n, workflows, integrations, and operational task reduction',
+        'Infrastructure & Cloud — AWS, Proxmox, virtualization, and environment management'
       ]
     }
   },
 
   skills: {
-    title: 'Expertise',
-    eyebrow: 'Skills',
-    subtitle: 'Technical pillars that support modern products and infrastructures.'
+    title: 'Specialties',
+    eyebrow: 'Focus',
+    subtitle: 'Three disciplines for building, integrating, and operating systems.'
   },
 
   projects: {
-    title: 'My Projects & SaaS',
-    eyebrow: 'SaaS',
-    subtitle: 'Platforms, automations, and infrastructure that solve real problems.'
+    title: 'Solutions delivered',
+    eyebrow: 'Portfolio',
+    subtitle: 'Own products and automations built to simplify operations and solve concrete problems.'
   },
 
   showcase: {
-    title: 'Gadgets & Infra Showcase',
-    eyebrow: 'Homelab',
-    subtitle: 'Local infrastructure and equipment that sustain the ecosystem.'
+    title: 'Infrastructure',
+    eyebrow: 'Operations',
+    subtitle: 'Environments configured to give your operation stability and autonomy.'
   },
 
   contact: {
     title: 'Contact',
     eyebrow: 'Contact',
-    subtitle: 'Let\'s talk about your product, infrastructure, or automation needs.',
+    subtitle: 'Let\'s talk about the problem you need to solve.',
     form: {
       name: 'Name',
       namePlaceholder: 'Your name',
@@ -88,11 +85,12 @@ export const en = {
     },
     sidebar: {
       title: 'Networks & Channels',
-      description: 'I respond quickly to automation projects, infrastructure consulting, and SaaS development.',
+      description: 'I take on automation, infrastructure, and custom software projects.',
       buttons: {
         whatsapp: 'WhatsApp',
         github: 'GitHub',
-        linkedin: 'LinkedIn'
+        linkedin: 'LinkedIn',
+        youtube: 'YouTube'
       }
     }
   },

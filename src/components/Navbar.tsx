@@ -27,9 +27,7 @@ const Navbar = ({ lang }: NavbarProps) => {
         <nav className="hidden items-center gap-6 text-sm text-white/70 lg:flex">
           <a href="#hero" className="hover:text-white">{t.navbar.nav.home}</a>
           <a href="#about" className="hover:text-white">{t.navbar.nav.about}</a>
-          <a href="#skills" className="hover:text-white">{t.navbar.nav.skills}</a>
           <a href="#projects" className="hover:text-white">{t.navbar.nav.projects}</a>
-          <a href="#showcase" className="hover:text-white">{t.navbar.nav.showcase}</a>
           <a href="#contact" className="hover:text-white">{t.navbar.nav.contact}</a>
         </nav>
         <div className="hidden lg:flex gap-3">
@@ -39,7 +37,7 @@ const Navbar = ({ lang }: NavbarProps) => {
           >
             {otherLang.toUpperCase()}
           </Link>
-          <Button as="link" href="#contact" variant="secondary">
+          <Button as="link" href="#contact" variant="ghost">
             {t.navbar.cta}
           </Button>
         </div>
