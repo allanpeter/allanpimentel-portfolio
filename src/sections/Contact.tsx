@@ -173,7 +173,7 @@ const Contact = ({ lang }: ContactProps) => {
             </Button>
             <Button
               as="link"
-              href="https://www.youtube.com/@allanpeter"
+              href="https://www.youtube.com/@AllanPimentech"
               target="_blank"
               rel="noopener noreferrer"
               variant="ghost"
